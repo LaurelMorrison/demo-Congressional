@@ -1,0 +1,38 @@
+html {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+header{
+    background-color: crimson;
+    color: whitesmoke;
+    margin: 2em;
+    text-align: center;
+}
+
+main{
+    Margin: 2em;
+    border: solid black 2px;
+    margin-left: 1em;
+    flex: 0  
+}
+
+aside{
+    margin-right: 1em;
+    flex: 1;
+    background-color: darkgray;
+    display: flex;
+    justify-content: right;
+    flex-direction: flex-end;
+    float: right;
+}
+
+footer{
+    background-color: darkred;
+    color: white
+    text-align: center;
+    padding: 1em
+}
+
+.main image{
+    width: 150 px;
+}
