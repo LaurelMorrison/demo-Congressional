@@ -2,35 +2,42 @@ html {
 	font-family: Tahoma, Geneva, sans-serif;
 }
 
-header{
+header {
     background-color: crimson;
     color: whitesmoke;
     margin: 2em;
     text-align: center;
 }
 
-main{
-    Margin: 2em;
-    border: solid black 2px;
-    margin-left: 1em;
-    flex: 0  
-}
-
-aside{
-    margin-right: 1em;
-    flex: 1;
+aside {
     background-color: darkgray;
-    display: flex;
-    justify-content: right;
-    flex-direction: flex-end;
+    display: inline-block;
     float: right;
+    padding: 1em;
+    flex: 1;
 }
 
-footer{
+main {
+    border: solid black 2px;
+    background-color: lightblue;
+    display: inline-block;
+    padding: 1em;
+    flex: 3;
+}
+
+footer {
     background-color: darkred;
-    color: white
+    color: white;
     text-align: center;
-    padding: 1em
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
 }
 
 .main image{
